@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no" />
+    <title>Tertunda - Aduin</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" />
+    <link rel="stylesheet" href="assets/fonts/fontawesome-all.min.css" />
+  </head>
+
+  <body id="page-top">
+    <div id="wrapper">
+      <nav class="navbar navbar-dark align-items-start sidebar sidebar-dark accordion bg-gradient-primary p-0">
+        <div class="container-fluid d-flex flex-column p-0">
+          <a class="navbar-brand d-flex justify-content-center align-items-center sidebar-brand m-0" href="#">
+            <div class="sidebar-brand-icon rotate-n-15"><i class="fas fa-user-edit"></i></div>
+            <div class="sidebar-brand-text mx-3"><span>ADU.IN</span></div>
+          </a>
+          <hr class="sidebar-divider my-0" />
+          <ul class="nav navbar-nav text-light" id="accordionSidebar">
+            <li class="nav-item" role="presentation">
+              <a class="nav-link" href="index.html"><i class="fas fa-tachometer-alt"></i><span>Dashboard</span></a>
+            </li>
+            <li class="nav-item" role="presentation">
+              <a class="nav-link" href="complaints_all.html"><i class="fab fa-trello"></i><span>Pengaduan</span></a>
+            </li>
+            <li class="nav-item" role="presentation">
+              <a class="nav-link active" href="complaints_pending.html"><i class="fas fa-history"></i><span>Tertunda</span></a>
+            </li>
+            <li class="nav-item" role="presentation">
+              <a class="nav-link" href="complaints_in_process.html"><i class="fas fa-sync"></i><span>Dalam Proses</span></a>
+            </li>
+            <li class="nav-item" role="presentation">
+              <a class="nav-link" href="complaints_solved.html"><i class="fas fa-check-circle"></i><span>Terselesaikan</span></a>
+            </li>
+            <li class="nav-item" role="presentation">
+              <a class="nav-link" href="login.html"><i class="fas fa-sign-out-alt"></i><span>logout</span></a>
+            </li>
+          </ul>
+          <div class="text-center d-none d-md-inline"><button class="btn rounded-circle border-0" id="sidebarToggle" type="button"></button></div>
+        </div>
+      </nav>
+      <div class="d-flex flex-column" id="content-wrapper">
+        <div id="content">
+          <nav class="navbar navbar-light navbar-expand bg-white shadow mb-4 topbar static-top">
+            <div class="container-fluid">
+              <button class="btn btn-link d-md-none rounded-circle mr-3" id="sidebarToggleTop" type="button"><i class="fas fa-bars"></i></button>
+            </div>
+          </nav>
+          <div class="container-fluid">
+            <h3 class="text-dark mb-4">Pengaduan Tertunda</h3>
+            <div class="card shadow">
+              <div class="card-header py-3">
+                <p class="text-primary m-0 font-weight-bold">daftar pengaduan tertunda</p>
+              </div>
+              <div class="card-body">
+                <div class="table-responsive table mt-2" id="dataTable" role="grid" aria-describedby="dataTable_info">
+                  <table class="table dataTable my-0" id="dataTable">
+                    <thead>
+                      <tr>
+                        <th>ID</th>
+                        <th>Judul</th>
+                        <th>Status</th>
+                        <th>tanggal</th>
+                        <th>Keterangan</th>
+                        <th>Link</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td style="width: 10px">01</td>
+                        <td style="width: 250px">Jalanan Rusak</td>
+                        <td style="width: 50px">Tertunda</td>
+                        <td style="width: 50px">01-12-2021</td>
+                        <td style="width: 160px">Sudah Tersampaikan</td>
+                        <td style="width: 50px">
+                          <a href="complaints_view.html"><div class="btn btn-primary">view</div></a>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <footer class="bg-white sticky-footer">
+          <div class="container my-auto">
+            <div class="text-center my-auto copyright"><span>Copyright © Kang Galau</span></div>
+          </div>
+        </footer>
+      </div>
+      <a class="border rounded d-inline scroll-to-top" href="#page-top"><i class="fas fa-angle-up"></i></a>
+    </div>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.js"></script>
+    <script src="assets/js/script.min.js"></script>
+  </body>
+</html>
