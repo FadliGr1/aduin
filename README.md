@@ -6,7 +6,7 @@ Website laporan pengaduan masyarakat atau biasa disebut dengan nama “Adu.in”
 #Our Team
 @Fadli Gunawan Rizqianto @Dimas Dwi Priyono @Ikmal Nawawi Thoha
 
-Demo : www.aduin.my.id
+Demo : https://aduin.my.id
 
 ![UI-09](https://user-images.githubusercontent.com/55347282/151659939-cd638f01-a425-489d-8bf5-9985d8733935.png)
 
